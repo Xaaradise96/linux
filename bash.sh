@@ -34,4 +34,22 @@ cp fichier.jpg  ../Images/copyFichier.jpg
 mv *.jpg ../Images/
 #Permet de deplacer tout les fichiers .jpg
 
+touch fichier.jpj image.jpg
+#permet de cree des fichiers. Ici, fichier.jpg et image.jpg
+
+cp fichier.jpg  ../Images/copyFichier.jpg
+# Permet de copier un ou plusieur fichiers. Ici, on copie fichier.jpg dans le dossier Images et on le romene copyFichier.jpg (en meme temps)
+
+mv *.jpg ../Images/
+#Permet de deplacer tout les fichiers .jpg
+
+touch script.sh 
+
+chomd ugo-rwx script.sh
+# Permet de changer les permissions pou : use, Group, Other
+# Les 3 types de permission sont: Read, Writte,eXecute
+# Ici, on retire les permissions a tous le monde
+
+chomd u+rwx script.sh
+# Ici, on ajoute tout les permissions de lecture, ecriture et de exection. ce fichier deviens un programe
 
